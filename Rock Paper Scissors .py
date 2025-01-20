@@ -26,9 +26,9 @@ while question == "YES": #a while loop checks to see if the user wants to play a
 
     print("Rock..paper...scissors...shoot\n")
     
-    if computer == "ROCK" and user == "SCISSORS":
-        print("Darn, the computer won\n")
-        computer_score +=1
+    if computer == "ROCK" and user == "SCISSORS": # checks to see what the input for the computer and user is
+        print("Darn, the computer won\n") # based on the inputs the result will be a computer win, user win, or tie
+        computer_score +=1 # the score is only increased by 1 if either the computer or the user wins
     
     elif computer == "SCISSORS" and user == "PAPER":
         print("Darn, the computer won\n")
